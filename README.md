@@ -71,8 +71,8 @@ For example, to find the x position of the player character, you can track the p
       "type": "<u4"
     }
   }
-}
-`
+}`
+
 To use the Integration User Interface, it is easiest if you have Linux or macOS. Follow the instructions on the Open AI Gym Retro github. This is how you can create your own variables.
 
 ## SuperMarioWorldAI-NEAT.py
@@ -81,7 +81,7 @@ This project uses the NEAT algorithm to create a recurrent neural network that i
 
 The code that rewards and penalizes the AI player was my made contribution to this code.
 
-`            # Add to fitness score if mario gains points on his score.
+	    `# Add to fitness score if mario gains points on his score.
             if score > 0:
                 if score > scoreTracker:
                     fitness_current = (score * 10)
@@ -93,7 +93,7 @@ The code that rewards and penalizes the AI player was my made contribution to th
                     fitness_current += (coins - coinsTracker)
                     coinsTracker = coins
         
-            # Add to fitness score if marioe gets more yoshi coins.
+            # Add to fitness score if mario gets more yoshi coins.
             if yoshiCoins > 0:
                 if yoshiCoins > yoshiCoinsTracker:
                     fitness_current += (yoshiCoins - yoshiCoinsTracker) * 10
@@ -158,7 +158,13 @@ The code that rewards and penalizes the AI player was my made contribution to th
 
 This can obviously be added to and tweaked to improve the AI, of which I am still doing.
 
-The code that I wrote was inspired by the Tutorials presented by Lucas Thompson found here:
+The code that I wrote was inspired by the tutorials presented by Lucas Thompson found here:
 <https://www.youtube.com/channel/UCLA_tAh0hX9bjl6DfCe9OLw>
 
 ![](OpenAI-Retro-SuperMarioWorld.gif)
+
+## config-feedforward
+
+This file is the file that tweaks how the NEAT algorithm works and these can be adjusted for particular needs and better results for particular situations.
+
+To find out more about how this works, check out the description page found here: <https://neat-python.readthedocs.io/en/latest/config_file.html>
