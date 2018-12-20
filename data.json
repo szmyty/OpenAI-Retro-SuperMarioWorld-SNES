@@ -1,0 +1,40 @@
+{
+  "info": {
+    "checkpoint": {
+      "address": 5070,
+      "type": "|i1"
+    },
+    "coins": {
+      "address": 8261055,
+      "type": "|u1"
+    },
+    "endOfLevel": {
+      "address": 8259846,
+      "type": "|i1"
+    },
+    "lives": {
+      "address": 8261399,
+      "type": "|u1"
+    },
+    "powerups": {
+      "address": 25,
+      "type": "|i1"
+    },
+    "score": {
+      "address": 8261428,
+      "type": "<u4"
+    },
+    "x": {
+      "address": 148,
+      "type": "<u2"
+    },
+    "deathDetection": {
+      "address": 8257688,
+      "type": "<u4"
+    },
+    "yoshiCoins": {
+      "address": 8262690,
+      "type": "<u4"
+    }
+  }
+}
