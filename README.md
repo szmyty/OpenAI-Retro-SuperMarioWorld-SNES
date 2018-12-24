@@ -32,7 +32,8 @@ The data.json file contains all variables that represent specific values that ar
 
 For example, to find the x position of the player character, you can track the player by searching for all values that have not changed yet, then move the player right and track all of the values have increased. Repeat this until only a few values remain. Then, move the player left and track all values that have decreased. Only a few values in RAM remain. You can then store this value in RAM as a variable and export it to the data.json file. I did this for many variables that I found while player Super Mario World.
 
-`{
+```json
+{
   "info": {
     "checkpoint": {
       "address": 5070,
@@ -79,7 +80,8 @@ For example, to find the x position of the player character, you can track the p
       "type": "<u4"
     }
   }
-}`
+}
+```
 
 To use the Integration User Interface, it is easiest if you have Linux or macOS. Follow the instructions on the Open AI Gym Retro github. This is how you can create your own variables.
 
