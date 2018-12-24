@@ -90,7 +90,7 @@ This project uses the NEAT algorithm to create a recurrent neural network that i
 The code that rewards and penalizes the AI player was my made contribution to this code.
 
 `
-score = info['score']
+	    score = info['score']
             coins = info['coins']
             yoshiCoins = info['yoshiCoins']
             dead = info['dead']
