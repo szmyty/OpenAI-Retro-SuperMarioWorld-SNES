@@ -28,8 +28,16 @@
       "address": 148,
       "type": "<u2"
     },
-    "deathDetection": {
+    "dead": {
       "address": 8257688,
+      "type": "<u4"
+    },
+    "y": {
+      "address": 114,
+      "type": "<u4"
+    },
+    "jump": {
+      "address": 8257747,
       "type": "<u4"
     },
     "yoshiCoins": {
