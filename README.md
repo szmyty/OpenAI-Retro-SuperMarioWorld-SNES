@@ -89,7 +89,8 @@ This project uses the NEAT algorithm to create a recurrent neural network that i
 
 The code that rewards and penalizes the AI player was my made contribution to this code.
 
-`score = info['score']
+`
+score = info['score']
             coins = info['coins']
             yoshiCoins = info['yoshiCoins']
             dead = info['dead']
@@ -185,7 +186,8 @@ The code that rewards and penalizes the AI player was my made contribution to th
             if done == True:
                 print(genome_id, fitness_current)
 
-genome.fitness = fitness_current`
+            genome.fitness = fitness_current
+`
 
 This can obviously be added to and tweaked to improve the AI, of which I am still doing.
 
