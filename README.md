@@ -24,6 +24,8 @@ Once you do that, you need to download the config-feedforward file and SuperMari
 
 If that doesn't work, you may need to place the files into the same directory as the NEAT library (not sure on this).
 
+If neither that does work, run `SuperMarioWorldAI-NEAT.py` in `OpenAI-Retro-SuperMarioWorld-SNES`
+
 ## data.json
 
 The data.json file contains all variables that represent specific values that are stored in RAM during the gameplay. These values are found by using the Open AI Retro Integration User Interface. This interface allows you to track specific values in RAM until you determine what the value stands for.
