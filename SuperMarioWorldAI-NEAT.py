@@ -1,5 +1,6 @@
 import retro 
 import numpy as np
+##pip install opencv-python to install cv2
 import cv2
 import neat
 import pickle
